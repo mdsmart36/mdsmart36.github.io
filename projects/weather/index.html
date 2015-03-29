@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>APIs</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <div>
+    <p>This project demonstrates a simple Ajax API call to Weather Underground.</p>
+    <br>
+  </div>
+  <div id="weather-box">
+  	<h1>Today's Weather</h1>
+  	Zip Code <input id="zip-code" type="text" name="zip-code" class="input-buffer" size="8">
+  	<button>Get Weather</button>
+    <br>
+    <div id="current-weather">
+    	<h2>Current Temperature</h2>
+    	<p id="date-time"></p>
+    	<p id="location"></p>
+    	<p id="temperature-string"></p>
+    	<img id="temperature-icon" src="" >
+
+    </div>
+
+  </div>
+
+  <script src="http://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
