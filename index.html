@@ -39,38 +39,36 @@
 		<hr>
 
 		<h2 class="menu-pad" id="about">About</h2>
+			<img src="images/matt_smart.jpg" class="img-circle small-pic pull-right">
 			<p>Thanks for stopping by!</p>
-			<div class="pull-right">
-				<img src="images/matt_smart-140x140.jpg" class="img-circle">
-			</div>
 			<p>I'm just getting starting in web development, even though my roots in computing go back over 30 years. Boy, have times changed!</p>
 			<p>As a middle school student, one of my teachers recommended me for a spring break computer camp being held at the local community college. We learned how to connect rotary dial telephone headsets to something called a "modulator / demodulator" (or modem, for short). Then we would dial a phone number to the campus computer system, and, voila, the computer could talk to each other! From there, we learned the basics of BASIC -- <em>Beginner's All-purpose Symbolic Instruction Code</em>, which told the computer what to do.</p>
 			<p>And so the story goes... What was once a novelty has now become a necessity. Computers are everywhere, and those who know how to utilize them for personal use, business, communication, entertainment, manufacturing, science and research, can benefit greatly.</p>
 			<p>After being in the ministry for 20 years, I'm circling back to coding. It's a hot topic right now, the demand for quality coders is great, and I want to be part of the story in shaping the future.</p>
 
 
-		<h2 class="menu-pad" id="technologies">Technologies that I use</h2>
+		<h2 class="menu-pad" id="technologies">Technologies</h2>
+		<p>Tools and technologies that I use to develop great applications</p>
 		<br>
 			<div class="row">
-				<div class="col-md-6">
-					<a href=""><img class="img-responsive tech" src="images/html5-140x140.png" alt="HTML5" title="HTML5"></a>
-					<a href=""><img class="img-responsive tech" src="images/css3-140x140.png" alt="CSS3" title="CSS3"></a>
-					<a href=""><img class="img-responsive tech" src="images/JavaScript-logo.png" alt="Javascript" title="Javascript"></a>
-					<a href=""><img class="img-responsive tech" src="images/jquery_logo.png" alt="jQuery" title="jQuery"></a>
-					<a href=""><img class="img-responsive tech" src="images/bootstrap-logo.png" alt="Bootstrap" title="Bootstrap"></a>
-				</div>
-				<div class="col-md-6">
-					<a href=""><img class="img-responsive tech" src="images/firebase_logo.png" alt="Firebase" title="Firebase"></a>
-					<a href=""><img class="img-responsive tech" src="images/github-logo-transparent.png" alt="Github" title="Github"></a>
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<a href=""><img class="img-responsive small-pic" src="images/html5.png" alt="HTML5" title="HTML5"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/css3.png" alt="CSS3" title="CSS3"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/JavaScript-logo.png" alt="Javascript" title="Javascript"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/jquery_logo.png" alt="jQuery" title="jQuery"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/bootstrap-logo.png" alt="Bootstrap" title="Bootstrap"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/firebase_logo.png" alt="Firebase" title="Firebase"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/github-logo-transparent.png" alt="Github" title="Github"></a>
 					
-					<a href=""><img class="img-responsive tech" src="images/visualstudio-140x140.png" alt="Visual Studio" title="Visual Studio"></a>
-					<a href=""><img class="img-responsive tech" src="images/ubuntu-logo14.png" alt="Ubuntu" title="Ubuntu"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/visualstudio.png" alt="Visual Studio" title="Visual Studio"></a>
+					<a href=""><img class="img-responsive small-pic" src="images/ubuntu-logo14.png" alt="Ubuntu" title="Ubuntu"></a>
 					<!-- 
-					<a href=""><img class="img-responsive tech" src="images/android-140x140.png" alt="Android" title="Android"></a>
+					<a href=""><img class="img-responsive tech" src="images/android.png" alt="Android" title="Android"></a>
 					<a href=""><img class="img-responsive tech" src="images/java-logo-transparent-140x140.png" alt="Java" title="Java"></a>
 					-->
-
 				</div>
+				<div class="col-md-1"></div>
 			</div>						
 
 			<hr>
@@ -108,7 +106,8 @@
 
 	<!-- Contact Form -->
 	<br>
-	<h2 class="menu-pad" id="contact">What can I do for you?</h2>
+	<h2 class="menu-pad" id="contact">Contact</h2>
+	<p>What can I do for you?</p>
 	<div class="light-background">
 
 	<form>
@@ -155,7 +154,8 @@
 		    <label><input type="radio" name="twitter" value="twitter">Twitter</label>
 		    <label><input type="radio" name="other-site" value="other-site">Site I developed</label>
 		  </div>
-	  <button class="btn btn-primary" type="submit">Send it to me</button>
+	  <button class="btn btn-primary" type="submit" id="form-button">Send it to me</button>
+	  <div id="form-output">Hello</div>
 	</div>
 
 	</form>
@@ -167,6 +167,13 @@
 
 </div>
 
+<div class="row">
+	<div class="col-md-12">
+		<a href=""><img class="img-responsive small-pic" src="images/facebook.png" alt="Facebook" title="Facebook"></a>
+		<a href=""><img class="img-responsive small-pic" src="images/twitter.png" alt="Twitter" title="Twitter"></a>
+		<a href=""><img class="img-responsive small-pic" src="images/gmail.png" alt="Gmail" title="Gmail"></a>
+	</div>
+</div>
 
 	<footer>
 		<p>&copy; 2015 Matthew Smart</p>
@@ -176,6 +183,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/portfolio.js"></script>
 </body>
 
 </html>
