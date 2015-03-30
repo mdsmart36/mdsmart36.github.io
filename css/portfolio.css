@@ -5,114 +5,26 @@ p {
 	font-size: 18px;
 }
 
-.navbar-custom {
-	background-color: lightsteelblue;
-}
-
 body {
 	background-color: cornflowerblue;
 	color: black;
 }
 
-
+.navbar-custom {
+	background-color: lightsteelblue;
+}
 
 .tech {
 	display: inline-block;
+	max-height: 140px;
+	max-width: 280px;
+	padding: 5px;
 }
 
-/*
+.menu-pad {
+	padding-top: 70px;
+}
+
 a {
-	text-decoration: none;
+	color: darkblue;
 }
-
-ul a:hover {
-	color: inherit;
-	background: slategray;
-}
-
-a:visited, a:link {
-	color: inherit;
-}
-
-.gallery {
-	max-height: 125px;
-}
-
-img {
-	max-width: 20%;
-	max-height: 20%;
-	padding: 1em;
-}
-
-
-
-#mug-shot {
-	float: right;
-}
-
-.icon {
-	height: 30px;
-	width: 30px;
-}
-
-#wrapper {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%;	
-}
-
-.center {
-	text-align: center;
-}
-
-.button:hover {
-	padding: 0.50em;
-	background: slategray;
-	border-radius: 15px;
-	text-align: center;
-}
-
-
-.light-background {
-	background: slategrey;
-}
-
-fieldset, form {
-	padding: 10px;
-	margin-left: 10px;
-	margin-bottom: 20px;
-}
-
-
-
-button[type="submit"] {
-
-}
-
-
-label {
-	display: inline-block;
-	text-align: right;
-	float: left;
-	clear: left;
-	width: 200px;
-	padding-right: 15px;
-}
-
-
-input {
-	display: inline-block;
-	float: left;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	margin-left: 10px;
-	float: none;
-}
-
-label select option {
-	color: black;
-}
-
-*/
