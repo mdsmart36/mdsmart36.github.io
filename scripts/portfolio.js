@@ -1,5 +1,15 @@
 $(document).ready(function() {
 	
+	// animate the html body for scrolling effect	
+	$(document).on("click", ".scrollable", function(e) {
+		e.preventDefault();
+		var target = this.getAttribute('data-target');
+		$("html, body").animate({
+			scrollTop: $(target).offset().top 
+		}, 750); 
+	});
+
+	// NEED TO COMPLETE - send contact form information
 	$("#form-button").on("click", function(e) {
 		e.preventDefault();
 		
@@ -12,26 +22,3 @@ $(document).ready(function() {
 	});
 });
 
-
-/* -- unused code for hiding and showing tabs
-$('.tab-list').each(function() {
-	var $this =	$(this);
-	var $tab = $this.find('li.active');
-	var $link = $tab.find('a');
-	var $panel = $($link.attr('href'));
-
-	$this.on('click', '.tab-control', function(e) {
-		e.preventDefault();
-		var $link = $(this);
-		var id = this.hash;
-
-		if (id && !$link.is('.active')) {
-			$panel.removeClass('active');
-			$tab.removeClass('active');
-
-			$panel = $(id).addClass('active');
-			$tab = $link.parent().addClass('active');
-		}
-	});
-});
-*/
