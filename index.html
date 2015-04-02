@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/portfolio.css">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body data-spy="scroll" data-target=".container" id="home">
@@ -14,7 +15,7 @@
 		<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
 			<div class="container">
 			<ul class="nav navbar-nav">
-		        <li class="active"><a href="#" class="scrollable" id="home" data-target="#home">Home <span class="sr-only">(current)</span></a></li>
+		        <li class="active"><a href="#" class="scrollable" id="home" data-target="#home"><span class="glyphicon glyphicon-home" aria-hidden="true" aria-label="Home"></span><span class="sr-only">(current)</span></a></li>
 		        <li><a href="#" class="scrollable" data-target="#about">About</a></li>
 		        <li><a href="#" class="scrollable" data-target="#technologies">Technologies</a></li>
 		        <li><a href="#" class="scrollable" data-target="#projects">Projects</a></li>
@@ -116,15 +117,15 @@
 	<p>What can I do for you?</p>
 	<div class="light-background">
 
-	<form>
+	<form action="?" method="POST">
 	  <div class="form-group">
 	    <label for="first-name">Your contact information</label>
 	    <input id="first-name" type="text" name="first-name" class="form-control" placeholder="First name">
 	    <input id="last-name" type="text" name="last-name" class="form-control" placeholder="Last name">
 	    <input id="email-address" type="text" name="email-address" class="form-control" placeholder="Email address">
-	    <input id="phone-number" type="text" name="phone-number" class="form-control" placeholder="Phone number">
+	    <!-- <input id="phone-number" type="text" name="phone-number" class="form-control" placeholder="Phone number"> -->
 	  </div>
-
+<!-- 
 	  <div class="form-group">
 	    <label for="comments">Comments</label>
 	    <textarea id="comments" name="comments" class="form-control" rows="5" cols="50"></textarea>
@@ -160,10 +161,12 @@
 		    <label><input type="radio" name="twitter" value="twitter">Twitter</label>
 		    <label><input type="radio" name="other-site" value="other-site">Site I developed</label>
 		  </div>
-	  <button class="btn btn-primary" type="submit" id="form-button">Send it to me</button>
-	  <div id="form-output">Hello</div>
-	</div>
+		   -->
+		<div class="g-recaptcha" data-sitekey="6LepswQTAAAAAI2RIWT3GdZfdjIr3tJmi4ndOH4H"></div>
 
+	  <button class="btn btn-primary" type="submit" id="form-button">Request my contact info</button>
+	  <!-- <div id="form-output">Request contact info</div> -->
+	</div>
 	</form>
 
 	<br>
