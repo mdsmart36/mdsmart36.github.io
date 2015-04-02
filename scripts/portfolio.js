@@ -15,10 +15,18 @@ $(document).ready(function() {
 		
 		var firstName = $("#first-name").val(),
 				lastname = $("#last-name").val(),
-				emailAddress = $("#email-address").val(),
-				phoneNumber = $("#phone-number").val();
+				emailAddress = $("#email-address").val()
 
-		$("#form-output").text(firstName + lastname);
+		$.post("https://www.google.com/recaptcha/api/siteverify", {
+			secret: '6LepswQTAAAAAOghGyM54KNR_PHM22Ghp70zX8l1',
+			response: grecaptcha.getResponse()
+		}, 
+			function(data) {
+				// show hidden div
+				console.log("reCAPTCHA successful");
+
+		});
+		
 	});
 });
 
