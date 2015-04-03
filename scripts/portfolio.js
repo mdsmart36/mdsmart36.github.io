@@ -10,23 +10,23 @@ $(document).ready(function() {
 	});
 
 	// NEED TO COMPLETE - send contact form information
-	$("#form-button").on("click", function(e) {
-		e.preventDefault();
+	// $("#form-button").on("click", function(e) {
+	// 	e.preventDefault();
 		
-		var firstName = $("#first-name").val(),
-				lastname = $("#last-name").val(),
-				emailAddress = $("#email-address").val()
+	// 	var firstName = $("#first-name").val(),
+	// 			lastname = $("#last-name").val(),
+	// 			emailAddress = $("#email-address").val()
 
-		$.post("https://www.google.com/recaptcha/api/siteverify", {
-			secret: '6LepswQTAAAAAOghGyM54KNR_PHM22Ghp70zX8l1',
-			response: grecaptcha.getResponse()
-		}, 
-			function(data) {
-				// show hidden div
-				console.log("reCAPTCHA successful");
+	// 	$.post("https://www.google.com/recaptcha/api/siteverify", {
+	// 		secret: '',
+	// 		response: grecaptcha.getResponse()
+	// 	}, 
+	// 		function(data) {
+	// 			// show hidden div
+	// 			console.log("reCAPTCHA successful");
 
-		});
+	// 	});
 		
-	});
+	// });
 });
 

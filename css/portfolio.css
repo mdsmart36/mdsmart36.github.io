@@ -6,18 +6,25 @@ p {
 }
 
 body {
-	background-color: cornflowerblue;
+	background-color: Linen;
 	color: black;
 }
 
 .navbar-custom {
-	background-color: lightsteelblue;
+	background-color: #CFC8B5;
 }
 
 .small-pic {
 	display: inline-block;
 	max-height: 140px;
 	max-width: 280px;
+	padding: 5px;
+}
+
+.xs-pic {
+	display: inline-block;
+	max-height: 70px;
+	max-width: 140px;
 	padding: 5px;
 }
 
