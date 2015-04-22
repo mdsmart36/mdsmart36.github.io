@@ -9,7 +9,7 @@ $(document).ready(function() {
 		}, 750); 
 	});
 
-	// NEED TO COMPLETE - send contact form information
+	//NEED TO COMPLETE - send contact form information
 	// $("#form-button").on("click", function(e) {
 	// 	e.preventDefault();
 		
@@ -18,7 +18,7 @@ $(document).ready(function() {
 	// 			emailAddress = $("#email-address").val()
 
 	// 	$.post("https://www.google.com/recaptcha/api/siteverify", {
-	// 		secret: '',
+	// 		secret: '6LepswQTAAAAAOghGyM54KNR_PHM22Ghp70zX8l1',
 	// 		response: grecaptcha.getResponse()
 	// 	}, 
 	// 		function(data) {
